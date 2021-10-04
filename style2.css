@@ -1,10 +1,9 @@
 body {
     margin: 0;
     
-    background: url("../img/pattern.png");
-    font-family: Tahoma;
-    
-line-height: 1.5;
+    background: url(https://i.ibb.co/313c7G6/pattern.jpg);
+    font-family: Tahoma; 
+    line-height: 1.5;
     font-size: 18px;
 }
 
