@@ -1,0 +1,25 @@
+body {
+    background: #a989e3;
+    
+}
+.parent {
+  background: url("img/pattern.png");
+  justify-content:space-evenly;
+  flex-direction: row;
+  display: flex;
+  height: auto; /* Or whatever */
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border: 5px solid #e8ff00;
+  border-radius: 25px;
+  align-content: space-around;
+}
+
+.child {
+  border-radius: 10px;
+  background: #4ffddd;
+  border: 10px dotted #d1dadf;
+  width: 500px;  
+  margin: 15px; 
+  flex-basis: auto;
+}
