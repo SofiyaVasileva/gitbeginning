@@ -18,7 +18,37 @@ body {
 .child {
   border-radius: 10px;
   background: #4ffddd;
-  border: 10px dotted #d1dadf;
+  border: 4px dotted #d1dbde;
+  width: 500px;  
+  margin: 15px; 
+  flex-basis: auto;
+}
+.child-button {
+    width: 500px; 
+    background-color: #4ffddd;
+    border-radius: 10px;
+    transition: 0.7s;
+    border: 4px dotted #d1dbde;
+}
+.child-button:hover {
+     background-color:#27d9b8;
+    transition: 0.4s;
+    
+}
+.children a{
+    text-decoration: none;
+        
+    }
+a {
+    color: #000;
+    transition: 0.7s;
+}
+a:hover {
+    cursor: pointer;
+    color: #e50c0c; 
+    transition: 0.4s;
+}
+.children {  
   width: 500px;  
   margin: 15px; 
   flex-basis: auto;
